@@ -1,0 +1,753 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+
+
+/* HTML5 display-role reset for older browsers */ 
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+body
+{
+	margin:0;
+	font: 40px Arial, Helvetica, sans-serif;
+}
+
+section
+{
+	display:block;
+	background:#09C;
+	height: 800px;
+	padding: 0px;
+	padding-left: 0px;
+}
+
+/* Template backgrounds */
+
+#one
+{
+	background:#000;
+}
+
+#two
+{
+	background:#000;
+}
+
+#three
+{
+	background:#000;
+}
+
+#four
+{
+	background:#000;	
+}
+
+#five
+{
+	background:#000;
+}
+
+#six
+{
+	background:#000;	
+}
+
+#seven
+{
+	background:#000;	
+}
+
+#eight
+{
+	background:#B30028;	
+}
+
+#nine
+{
+	background:#000;	
+}
+
+#ten
+{
+	background:#B30028;
+}
+
+#eleven
+{
+	background:#000;
+}
+
+#twelve
+{
+	background:#B30028;
+}
+
+
+
+
+/* Navigatie CSS */
+
+nav
+{
+	position:fixed;
+	margin-left:10px;
+	margin-top: -10px;
+	z-index: 120;
+}
+
+nav ul li
+{
+	display: inline;
+}
+
+nav ul li a
+{
+	background-color:#000;
+	display:inline-block;
+	text-decoration: none;
+	margin-top: 3px;
+	padding: 6px;
+	font-family: courier;
+	margin-left:-6px;
+	text-align:center;
+	color:#FFF;
+	font-size:14px;
+}
+
+
+
+
+/* CSS van de zon pagina */
+
+#planetSun
+{
+	position:absolute;
+	margin-top:50px;
+	margin-left:-350px;
+	z-index: 100;
+}
+
+.textSun
+{
+	position:absolute;
+	margin-top:60px;
+	margin-left:860px;
+	width:500px;
+	font-family:verdana;
+	font-size:20px;
+	color:#fff;
+	text-shadow: 1px 1px 0px black;
+	z-index: 100;
+}
+
+#blockSun1
+{
+	background-color: #000;
+	width: 520px;
+	height: 280px;
+	margin-top:50px;
+	margin-left: 850px;
+	position: absolute;
+	z-index: 50;
+	opacity: 0.3;
+}
+
+#blockSun2
+{
+	background-color: #000;
+	width: 520px;
+	height: 380px;
+	margin-top:340px;
+	margin-left: 850px;
+	position: absolute;
+	z-index: 50;
+	opacity: 0.3;
+}
+
+#blockSun3
+{
+	background-color: #000;
+	width: 520px;
+	height: 330px;
+	margin-top:50px;
+	margin-left: 850px;
+	position: absolute;
+	z-index: 50;
+	opacity: 0.3;
+}
+
+#blockSun4
+{
+	background-color: #000;
+	width: 520px;
+	height: 350px;
+	margin-top:390px;
+	margin-left: 850px;
+	position: absolute;
+	z-index: 50;
+	opacity: 0.3;
+}
+
+#blockSun5
+{
+	background-color: #000;
+	width: 520px;
+	height: 230px;
+	margin-top:50px;
+	margin-left: 850px;
+	position: absolute;
+	z-index: 50;
+	opacity: 0.3;
+}
+
+#blockSun6
+{
+	background-color: #000;
+	width: 520px;
+	height: 260px;
+	margin-top:290px;
+	margin-left: 850px;
+	position: absolute;
+	z-index: 50;
+	opacity: 0.3;
+}
+
+#blockSun7
+{
+	background-color: #000;
+	width: 520px;
+	height: 200px;
+	margin-top:560px;
+	margin-left: 850px;
+	position: absolute;
+	z-index: 50;
+	opacity: 0.3;
+}
+
+
+#slideshow 
+{ 
+    position: relative; 
+    z-index: 1;
+}
+
+#slideshow > div 
+{ 
+    position: absolute; 
+    z-index: 2;
+}
+
+
+
+
+/* CSS van de mercurius pagina */
+
+#planetMercurius
+{
+	position:absolute;
+	margin-top:250px;
+	margin-left:-150px;
+	z-index: 100;
+}
+
+.textMercurius
+{
+	position:absolute;
+	width: 500px;
+	height: 714px;
+	margin-top:60px;
+	margin-left:860px;
+	font-family:verdana;
+	font-size:20px;
+	color:#fff;
+	text-shadow: 1px 1px 0px black;
+	z-index: 100;
+}
+
+#blockMercury1
+{
+	background-color: #000;
+	width: 520px;
+	height: 260px;
+	margin-top:50px;
+	margin-left: 850px;
+	position: absolute;
+	z-index: 50;
+	opacity: 0.3;
+}
+
+#blockMercury2
+{
+	background-color: #000;
+	width: 520px;
+	height: 400px;
+	margin-top:320px;
+	margin-left: 850px;
+	position: absolute;
+	z-index: 50;
+	opacity: 0.3;
+}
+
+#blockMercury3
+{
+	background-color: #000;
+	width: 520px;
+	height: 235px;
+	margin-top:50px;
+	margin-left: 850px;
+	position: absolute;
+	z-index: 50;
+	opacity: 0.3;
+}
+
+#blockMercury4
+{
+	background-color: #000;
+	width: 520px;
+	height: 230px;
+	margin-top:295px;
+	margin-left: 850px;
+	position: absolute;
+	z-index: 50;
+	opacity: 0.3;
+}
+
+#blockMercury5
+{
+	background-color: #000;
+	width: 520px;
+	height: 230px;
+	margin-top:535px;
+	margin-left: 850px;
+	position: absolute;
+	z-index: 50;
+	opacity: 0.3;
+}
+
+#slideshow2 
+{ 
+    position: relative; 
+    z-index: 1;
+}
+
+#slideshow2 > div 
+{ 
+    position: absolute; 
+    z-index: 2;
+}
+
+
+
+
+/* CSS van de venus pagina */
+
+#planetVenus
+{
+	position:absolute;
+	margin-top:200px;
+	margin-left:-200px;
+	z-index: 100;
+}
+
+.textVenus
+{
+	position:absolute;
+	margin-top:55px;
+	margin-left:860px;
+	width:500px;
+	font-family:verdana;
+	font-size:20px;
+	color:#fff;
+	text-shadow: 1px 1px 0px black;
+	z-index: 100;
+}
+
+#blockVenus1
+{
+	background-color: #000;
+	width: 520px;
+	height: 230px;
+	margin-top:50px;
+	margin-left: 850px;
+	position: absolute;
+	z-index: 50;
+	opacity: 0.3;
+}
+
+#blockVenus2
+{
+	background-color: #000;
+	width: 520px;
+	height: 420px;
+	margin-top:290px;
+	margin-left: 850px;
+	position: absolute;
+	z-index: 50;
+	opacity: 0.3;
+}
+
+#blockVenus3
+{
+	background-color: #000;
+	width: 520px;
+	height: 395px;
+	margin-top:50px;
+	margin-left: 850px;
+	position: absolute;
+	z-index: 50;
+	opacity: 0.3;
+}
+
+#blockVenus4
+{
+	background-color: #000;
+	width: 520px;
+	height: 280px;
+	margin-top:455px;
+	margin-left: 850px;
+	position: absolute;
+	z-index: 50;
+	opacity: 0.3;
+}
+
+#slideshow3 
+{ 
+    position: relative; 
+    z-index: 1;
+}
+
+#slideshow3 > div 
+{ 
+    position: absolute; 
+    z-index: 2;
+}
+
+
+
+
+/* CSS van de aarde pagina */
+
+#planetEarth
+{
+	position:absolute;
+	margin-top:175px;
+	margin-left:-225px;
+	z-index: 100;
+	
+}
+
+.textEarth
+{
+	position:absolute;
+	width: 500px;
+	height: 714px;
+	margin-top:60px;
+	margin-left:860px;
+	font-family:verdana;
+	font-size:20px;
+	color:#fff;
+	text-shadow: 1px 1px 0px black;
+	z-index: 100;
+}
+
+#blockEarth1
+{
+	background-color: #000;
+	width: 520px;
+	height: 710px;
+	margin-top:50px;
+	margin-left: 850px;
+	position: absolute;
+	z-index: 50;
+	opacity: 0.3;
+}
+
+#blockEarth2
+{
+	background-color: #000;
+	width: 520px;
+	height: 285px;
+	margin-top:50px;
+	margin-left: 850px;
+	position: absolute;
+	z-index: 50;
+	opacity: 0.3;
+}
+
+#blockEarth3
+{
+	background-color: #000;
+	width: 520px;
+	height: 325px;
+	margin-top:345px;
+	margin-left: 850px;
+	position: absolute;
+	z-index: 50;
+	opacity: 0.3;
+}
+
+#blockEarth4
+{
+	background-color: #000;
+	width: 520px;
+	height: 665px;
+	margin-top:50px;
+	margin-left: 850px;
+	position: absolute;
+	z-index: 50;
+	opacity: 0.3;
+}
+
+
+#slideshow4
+{ 
+    position: relative; 
+    z-index: 1;
+}
+
+#slideshow4 > div 
+{ 
+    position: absolute; 
+    z-index: 2;
+}
+
+
+
+
+/* CSS van de maan pagina */
+
+#planetMoon
+{
+	position:absolute;
+	margin-top:275px;
+	margin-left:-125px;
+	z-index: 100;
+}
+
+.textMoon
+{
+	position:absolute;
+	width: 500px;
+	height: 714px;
+	margin-top:60px;
+	margin-left:860px;
+	font-family:verdana;
+	font-size:20px;
+	color:#fff;
+	text-shadow: 1px 1px 0px black;
+	z-index: 100;
+}
+
+#blockMoon1
+{
+	background-color: #000;
+	width: 520px;
+	height: 690px;
+	margin-top:50px;
+	margin-left: 850px;
+	position: absolute;
+	z-index: 50;
+	opacity: 0.3;
+}
+
+#blockMoon2
+{
+	background-color: #000;
+	width: 520px;
+	height: 130px;
+	margin-top:200px;
+	margin-left: 850px;
+	position: absolute;
+	z-index: 50;
+	opacity: 0.3;
+}
+
+#blockMoon3
+{
+	background-color: #000;
+	width: 520px;
+	height: 180px;
+	margin-top:340px;
+	margin-left: 850px;
+	position: absolute;
+	z-index: 50;
+	opacity: 0.3;
+}
+
+#blockMoon4
+{
+	background-color: #000;
+	width: 520px;
+	height: 220px;
+	margin-top:540px;
+	margin-left: 850px;
+	position: absolute;
+	z-index: 50;
+	opacity: 0.3;
+}
+
+
+#slideshow5
+{ 
+    position: relative; 
+    z-index: 1;
+}
+
+#slideshow5 > div 
+{ 
+    position: absolute; 
+    z-index: 2;
+}
+
+
+
+
+
+/* CSS van de mars pagina */
+
+#planetMars
+{
+	position:absolute;
+	margin-top:225px;
+	margin-left:-175px;
+	z-index: 100;
+}
+
+.textMars
+{
+	position:absolute;
+	width: 500px;
+	height: 714px;
+	margin-top:60px;
+	margin-left:860px;
+	font-family:verdana;
+	font-size:20px;
+	color:#fff;
+	text-shadow: 1px 1px 0px black;
+	z-index: 100;
+}
+
+#blockMars1
+{
+	background-color: #000;
+	width: 520px;
+	height: 355px;
+	margin-top:50px;
+	margin-left: 850px;
+	position: absolute;
+	z-index: 50;
+	opacity: 0.3;
+}
+
+#blockMars2
+{
+	background-color: #000;
+	width: 520px;
+	height: 325px;
+	margin-top:415px;
+	margin-left: 850px;
+	position: absolute;
+	z-index: 50;
+	opacity: 0.3;
+}
+
+#blockMars3
+{
+	background-color: #000;
+	width: 520px;
+	height: 310px;
+	margin-top:50px;
+	margin-left: 850px;
+	position: absolute;
+	z-index: 50;
+	opacity: 0.3;
+}
+
+#blockMars4
+{
+	background-color: #000;
+	width: 520px;
+	height: 275px;
+	margin-top:370px;
+	margin-left: 850px;
+	position: absolute;
+	z-index: 50;
+	opacity: 0.3;
+}
+
+
+#slideshow6
+{ 
+    position: relative; 
+    z-index: 1;
+}
+
+#slideshow6 > div 
+{ 
+    position: absolute; 
+    z-index: 2;
+}
+
+
+
+/* Voor de draaien van de planeten */
+
+.image 
+{
+    position: absolute;
+    -webkit-animation:spin 50s linear infinite;
+    -moz-animation:spin 50s linear infinite;
+    animation:spin 50s linear infinite;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+
+
+
+
+
